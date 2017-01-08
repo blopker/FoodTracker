@@ -13,6 +13,7 @@
 		3364E4EC1E22D665006F221F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3364E4EB1E22D665006F221F /* Assets.xcassets */; };
 		3364E4EF1E22D665006F221F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3364E4ED1E22D665006F221F /* LaunchScreen.storyboard */; };
 		3364E4FA1E22D665006F221F /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364E4F91E22D665006F221F /* FoodTrackerTests.swift */; };
+		3364E5051E2304E0006F221F /* RaitingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364E5041E2304E0006F221F /* RaitingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3364E4F51E22D665006F221F /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3364E4F91E22D665006F221F /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		3364E4FB1E22D665006F221F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3364E5041E2304E0006F221F /* RaitingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaitingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3364E4E41E22D665006F221F /* AppDelegate.swift */,
 				3364E4E61E22D665006F221F /* ViewController.swift */,
+				3364E5041E2304E0006F221F /* RaitingControl.swift */,
 				3364E4E81E22D665006F221F /* Main.storyboard */,
 				3364E4EB1E22D665006F221F /* Assets.xcassets */,
 				3364E4ED1E22D665006F221F /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3364E5051E2304E0006F221F /* RaitingControl.swift in Sources */,
 				3364E4E71E22D665006F221F /* ViewController.swift in Sources */,
 				3364E4E51E22D665006F221F /* AppDelegate.swift in Sources */,
 			);
